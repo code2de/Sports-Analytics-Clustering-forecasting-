@@ -1,11 +1,11 @@
-# ⚽ Sports Analytics: Clustering and Forecasting Player Performance  
+# Sports Analytics: Clustering and Forecasting Player Performance  
 
 An interactive **Shiny web application** in **R** for analyzing football player statistics through **clustering** and **forecasting**.  
 Deployed live on **shinyapps.io** 👉 [Sports Analytics App](https://code2de.shinyapps.io/sports_analytics/)  
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 This project was developed as part of a **Data Mining & Analytics (DMA) Mini-Project**.  
 The workflow follows the **DMA project steps**:  
 
@@ -21,7 +21,7 @@ The workflow follows the **DMA project steps**:
 
 ---
 
-## 🚀 Features
+## Features
 - **CSV Upload Support** – analyze your own player dataset.  
 - **Dataset Preview** – view raw player data before analysis.  
 - **Player Clustering** – visualize groups of players by Goals, Assists, and Minutes.  
@@ -30,7 +30,7 @@ The workflow follows the **DMA project steps**:
 
 ---
 
-## 📂 Dataset
+## Dataset
 Sample dataset used: **2021–22 EPL Player Stats**  
 - Columns:  
   - `Player`  
@@ -43,7 +43,7 @@ You can replace this dataset with any structured player stats CSV.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - **R**  
 - **Shiny** – frontend & backend framework  
 - **ggplot2** – visualizations  
@@ -52,13 +52,13 @@ You can replace this dataset with any structured player stats CSV.
 
 ---
 
-🌐 Live Demo
+ Live Demo
 
-🔗 Sports Analytics App on shinyapps.io
-
-📸 Screenshots
-
-👩‍💻 Author
+Sports Analytics App on shinyapps.io
+✔ Successfully deployed to <https://code2de.shinyapps.io/sports_analytics/>
+ Screenshots
+ 
+Author
 
 Developed by Karunya
 🔗 GitHub: @code2de
