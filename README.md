@@ -43,22 +43,30 @@ You can replace this dataset with any structured player stats CSV.
 
 ---
 
-## Tech Stack
-- **R**  
-- **Shiny** – frontend & backend framework  
-- **ggplot2** – visualizations  
-- **dplyr** – data manipulation  
-- **forecast** – time series modeling (ARIMA)  
+Tech Stack & Libraries
+This project demonstrates proficiency in bridging two distinct ecosystems:
 
----
+Domain	Key Technologies	Core Libraries / Frameworks
+Frontend (Presentation)	React, JavaScript (ES6+), Modern CSS	Recharts/Nivo (Interactive Charts), Frontend Routing
+Backend (Analytics)	R Language	Shiny (API/App Host), forecast (ARIMA), cluster (K-Means), ggplot2 (R-side visualization logic)
+Data Flow	RESTful API / Shiny's Reactive Framework	JSON Data exchange
 
- Live Demo
+Export to Sheets
+📁 Project Contents
+frontend/: Source code for the interactive React dashboard components.
 
-Sports Analytics App on shinyapps.io
-✔ Successfully deployed to <https://code2de.shinyapps.io/sports_analytics/>
- Screenshots
- 
-Author
+R_analysis/: R scripts containing all statistical models (Clustering, Forecasting) and data processing logic.
 
+data/: Sample dataset (2021_22_playerstats_epl.csv) and template for user CSV uploads.
+
+🌐 Live Demo & Deployment
+Successfully deployed and running as a unified application.
+
+Live App: [Sports Analytics App on shinyapps.io] (Replace with actual link: https://code2de.shinyapps.io/sports_analytics/)
+
+Demo Screenshots: (Include a link to a folder of high-res images/GIF)
+
+👤 Author
 Developed by Karunya
+
 🔗 GitHub: @code2de
